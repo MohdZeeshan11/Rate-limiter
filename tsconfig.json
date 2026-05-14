@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "Node16",
+    "noImplicitAny": true,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    // "outDir": "../../built/locales",
+    "sourceMap": true
+  },
+  "include": ["src/**/*"],
+//   "exclude": ["**/*.spec.ts"]
+}
