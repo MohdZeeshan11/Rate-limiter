@@ -4,13 +4,14 @@
   "description": "",
   "type": "module",
   "scripts": {
-    "testing": "node --loader ts-node/esm -r dotenv/config src/main.ts dotenv_config_path=.env.testing"
+    "start": "nodemon --exec \"node --loader ts-node/esm\" -r dotenv/config src/main.ts"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^5.2.1"
+    "express": "^5.2.1",
+    "redis": "^5.12.1"
   },
   "devDependencies": {
     "@types/express": "^5.0.6",
